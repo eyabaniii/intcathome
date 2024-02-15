@@ -1,0 +1,19 @@
+/*==NAV BAR==*/
+#navb{
+ color: var(--blueGreen);
+    background-color: var(--white) !important;
+    padding: 1rem 0;
+}
+#nabr{
+
+    color: var(--blueGreen);
+
+}
+.navbar-toggler{
+border: 2px solid var(--white);
+ background-color: var(--white) !important;
+
+}
+#logo{
+  height: 50px;
+}

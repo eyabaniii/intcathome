@@ -1,0 +1,61 @@
+.Accueil .ap1 {
+  background-image: url(../src/assets/st1.jpeg);
+  background-repeat: no-repeat;
+ color: var(--bostonBlue);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;    width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.Accueil .ap1 h1 {
+  backdrop-filter: blur(30px);
+  padding: 0.5rem;width: 100%;
+
+}
+
+.Accueil button {
+  background-color: var(--bostonBlue);
+  border: 2px var(--bostonBlue);
+  padding: 10px 20px;
+   color: var(--white);
+}
+/*==MEDIA QUERY==*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .Accueil .ap1 {
+    padding: 4vh 5vw !important;
+    height: 50vh  !important ;
+  }
+
+  .Accueil .ap1 h1 {
+    font-size: 1.7rem !important;
+    font-size: 1.7rem !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .Accueil .ap1 {
+    padding: 5vh 5vw !important;
+    height: 55vh  !important ;
+  }
+
+  .Accueil .ap1 h1 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+}
+.Accueil .ap1 {
+  padding: 10vh 5vw;
+  height: 94vh;
+}
+.Accueil button {
+ font-size: 1.7rem;
+  }
+.Accueil .ap1 h1 {
+  font-size: 3.2rem;
+}
